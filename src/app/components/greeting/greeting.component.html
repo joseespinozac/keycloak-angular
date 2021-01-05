@@ -1,0 +1,33 @@
+<div class="greeting-container">
+  <div class="inside-greeting">
+    <div class="greeting-cards">
+      <div class="card english">
+        <p class="greeting-card-text" [(ngModel)]="greetingEnglish">
+        </p>
+      </div>
+      <div class="card al">
+        <p class="greeting-card-text">
+          Hello-Aleman
+        </p>
+      </div>
+      <div class="card spanish">
+        <p class="greeting-card-text" [(ngModel)]="greetingSpanish">
+
+        </p>
+      </div>
+    </div>
+    <div class="request-test-container">
+      <div class="buttons">
+        <a href="" class="button" >Saludar en Aleman</a>
+        <a href="" class="button" (click)="getSpanishGreetingButton()">Saludar en Español</a>
+        <a href="" class="button" (click)="getEnglishGreetingButton()">Saludar en Ingles</a>
+      </div>
+      <div class="greeting-text-container">
+        <p class="greeting-text" [(ngModel)]="this.textGreeting"></p>
+      </div>
+    </div>
+    <div class="logout">
+      <a href="" class="logout-button" (click)="logout()"></a>
+    </div>
+  </div>
+</div>

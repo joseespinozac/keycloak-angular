@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "keycloakdemo"
+    }
+  },
+  "defaultProject": "keycloakdemo",
+  "cli": {
+    "analytics": "3ad88ad0-4d34-416f-89cd-1c1259ca58cf"
+  }
 }
